@@ -44,15 +44,19 @@ localhost:3000.
 ## Screenshots of different actions - 
 
 1. Placing Order - 
+
 [![image-1.png](https://i.postimg.cc/76fFw1QR/image-1.png)](https://postimg.cc/dkcH9CFR)
 
 2. Bullmq dashboard shows queue and how the order is getting processed at each step and its movement from active to completed - 
+
 [![image-2.png](https://i.postimg.cc/HWJmgmqL/image-2.png)](https://postimg.cc/dDKp2btM)
 
 3. Terminal after running server and placing order - 
+
 [![image.png](https://i.postimg.cc/X7ZTTgyB/image.png)](https://postimg.cc/MvSPBV5z)
 
 4. Reports for each order placed and time taken at each step and total time taken for them as json - 
+
 [![image-3.png](https://i.postimg.cc/DzsGDR7p/image-3.png)](https://postimg.cc/Mc6XfPM1)
 
 ## Tradeoffs
