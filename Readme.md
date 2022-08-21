@@ -41,15 +41,10 @@ localhost:3000.
 2. `config.js`: Config file for all kind of created queues.
 3. `index.js`: Entry point to run server and to route requests.
 
-## Tradeoffs
-
-1. I didn't use any database to store reports data but it can be expanded further to store. 
-2. For the sake of simplicity and time crunch not able to do the full fledged solution but tried to implement producer consumer structure using bullmq.
-
 ## Screenshots of different actions - 
 
 1. Placing Order - 
-[![image.png](https://i.postimg.cc/NM47KvcM/image.png)](https://postimg.cc/ygDSG5W4)
+[![image-1.png](https://i.postimg.cc/76fFw1QR/image-1.png)](https://postimg.cc/dkcH9CFR)
 
 2. Bullmq dashboard shows queue and how the order is getting processed at each step and its movement from active to completed - 
 [![image-2.png](https://i.postimg.cc/HWJmgmqL/image-2.png)](https://postimg.cc/dDKp2btM)
@@ -59,3 +54,8 @@ localhost:3000.
 
 4. Reports for each order placed and time taken at each step and total time taken for them as json - 
 [![image-3.png](https://i.postimg.cc/DzsGDR7p/image-3.png)](https://postimg.cc/Mc6XfPM1)
+
+## Tradeoffs
+
+1. I didn't use any database to store reports data but it can be expanded further to store. 
+2. For the sake of simplicity and time crunch not able to do the full fledged solution but tried to implement producer consumer structure using bullmq.
